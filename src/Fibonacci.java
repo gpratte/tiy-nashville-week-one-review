@@ -29,6 +29,8 @@ public class Fibonacci {
     }
 
 
+    // Run this. Put in a big number like 11111 to get
+    // StackOverflowException
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter sequence length: ");
